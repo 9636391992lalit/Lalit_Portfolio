@@ -5,49 +5,56 @@ import { FaBriefcase, FaMapMarkerAlt, FaCalendar } from 'react-icons/fa';
 const Experience = () => {
   // Experience data
   const experiences = [
-    {
-      _id: "1",
-      company: "QuickIntell",
-      position: "Full Stack Developer Intern",
-      duration: "Oct 2025 – Mar 2026",
-      location: "Remote",
-      status: "ongoing", // Status: "completed" or "ongoing"
-      description: "Selected for a 6-month remote internship as a key contributor to cutting-edge AI-driven projects, working on both front-end and back-end development. The role involves research, development, and collaboration to advance AI technology.",
-      responsibilities : [
-        "Serve as a key contributor on cutting-edge projects, integrating AI algorithms into applications ",
-        "Develop on both front-end and back-end components to ensure the seamless functioning of AI applications ",
-        "Focus on research, development, and team collaboration to push the boundaries of AI technology "
-      ],
-      order:1 
-    },
-    {
-      _id: '2',
-      company: 'Centre for Development of Advanced Computing (CDAC), Noida',
-      position: 'Ethical Hacking and Penetration Testing Intern',
-      duration: 'Dec 2024 – Jan 2025',
-      location: 'Remote (Cyber Gyan Project)',
-      status: "completed", // Status: "completed" or "ongoing"
-      description: 'Completed a 6-week internship under the Cyber Gyan Project, focusing on Ethical Hacking, Penetration Testing, and Digital Forensics.',
-      responsibilities: [
-        'Investigated disk images exceeding 10+ GB using forensic tools like Autopsy, FTK Imager, and EnCase, recovering over 150 hidden or deleted files',
-        'Ensured 100% data integrity through MD5/SHA-256 hashing, maintaining legal admissibility of digital evidence'
-      ],
-      order:2 
-    },
-    {
-      _id: '3',
-      company: 'ApexPlanet Software Pvt. Ltd.',
-      position: 'Web Development Intern',
-      duration: 'June 2025 – July 2025',
-      location: 'Remote',
-      status: "completed", // Status: "completed" or "ongoing"
-      description: 'Completed a 45-day internship focused on frontend development, building responsive and user-friendly web interfaces.',
-      responsibilities: [
-        'Built and optimized multiple front-end projects, including a personal portfolio, interactive quiz app, and product listing page with filtering and sorting features'
-      ],
-      order: 3
-    }
-  ];
+  {
+    _id: "1",
+    company: "QuickIntell",
+    position: "Full Stack Developer Intern",
+    duration: "Oct 2025 – Nov 2025",
+    location: "Remote",
+    status: "completed", // Status: "completed" or "ongoing"
+    description:
+      "Worked as a Full Stack Developer Intern on multiple full-stack projects, focusing on API validation, backend reliability, and data quality testing to ensure production-ready applications.",
+    responsibilities: [
+      "Validated 250+ REST API endpoints across 5 full-stack projects using Postman, covering authentication, authorization, edge cases, and error handling workflows",
+      "Created and maintained comprehensive API test collections to ensure consistent backend functionality",
+      "Performed data quality testing using Flowise AI along with manual verification to validate AI-generated datasets across multiple modules",
+      "Ensured data accuracy and module-level correctness to support stable production deployment"
+    ],
+    order: 1
+  },
+  {
+    _id: "2",
+    company: "Centre for Development of Advanced Computing (CDAC), Noida",
+    position: "Ethical Hacking and Penetration Testing Intern",
+    duration: "Dec 2024 – Jan 2025",
+    location: "Remote (Cyber Gyan Project)",
+    status: "completed", // Status: "completed" or "ongoing"
+    description:
+      "Completed a Government of India Cyber Gyan Project internship with hands-on exposure to ethical hacking, penetration testing, network security, and digital forensics.",
+    responsibilities: [
+      "Analyzed disk images exceeding 10GB using forensic tools such as Autopsy, FTK Imager, and EnCase",
+      "Recovered 150+ hidden and deleted files while documenting findings and potential security vulnerabilities",
+      "Maintained evidence integrity throughout forensic analysis workflows"
+    ],
+    order: 2
+  },
+  {
+    _id: "3",
+    company: "ApexPlanet Software Pvt. Ltd.",
+    position: "Web Development Intern",
+    duration: "June 2025 – July 2025",
+    location: "Remote",
+    status: "completed", // Status: "completed" or "ongoing"
+    description:
+      "Completed a short-term internship focused on frontend web development, building responsive and user-friendly interfaces.",
+    responsibilities: [
+      "Developed responsive frontend projects including a personal portfolio, interactive quiz application, and product listing pages with filtering and sorting functionality",
+      "Improved UI responsiveness and usability using modern HTML, CSS, and JavaScript practices"
+    ],
+    order: 3
+  }
+];
+
 
   return (
     <section id="experience" className="bg-white">
