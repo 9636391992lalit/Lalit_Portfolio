@@ -47,7 +47,7 @@ const Education = () => {
       institution: 'Indian Institute of Information Technology, Manipur',
       year: '2022-2026',
       description: 'Specialized in Software Engineering and Web Development. Completed coursework in Data Structures, Algorithms, Database Management, and Web Technologies.',
-      grade: '8.13 CGPA',
+      grade: '8.21 CGPA',
       achievements: [
         'Secured 2nd Position in C.P. Competition - AHOUBA\'24, IIIT Manipur (Apr 2024)',
         'Dean\'s List for Academic Excellence',
