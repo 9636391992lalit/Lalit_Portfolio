@@ -28,9 +28,9 @@ const Projects = () => {
       liveLink: null,
       date: "Dec 2024",
       keyPoints: [
-        "Developed a full-stack bookstore platform with JWT authentication and role-based access control, supporting 100+ users",
-        "Integrated Google Books and Open Library APIs to fetch 1,000+ books with real-time search, category, author, and price filters",
-        "Implemented a Saved Books feature using MongoDB to persist user selections, enabling retrieval across sessions for 100+ active users"
+       "Built a full-stack bookstore platform with JWT-based security, role-based access control for two user types, and bcrypt hashing for secure authentication and session management",
+       "Integrated Favorites, Shopping Cart, and Order Processing features with MongoDB persistence for 1,000+ books",
+       "Enabled paginated browsing and supported 50+ concurrent cart items for active users"
       ]
     },
     {
