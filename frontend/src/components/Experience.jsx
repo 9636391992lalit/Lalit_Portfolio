@@ -9,16 +9,16 @@ const Experience = () => {
     _id: "1",
     company: "QuickIntell",
     position: "Full Stack Developer Intern",
-    duration: "Oct 2025 – Nov 2025",
+    duration: "Oct 2025 – Jan 2026",
     location: "Remote",
     status: "completed", // Status: "completed" or "ongoing"
     description:
       "Worked as a Full Stack Developer Intern on multiple full-stack projects, focusing on API validation, backend reliability, and data quality testing to ensure production-ready applications.",
     responsibilities: [
-      "Validated 250+ REST API endpoints across 5 full-stack projects using Postman, covering authentication, authorization, edge cases, and error handling workflows",
-      "Created and maintained comprehensive API test collections to ensure consistent backend functionality",
-      "Performed data quality testing using Flowise AI along with manual verification to validate AI-generated datasets across multiple modules",
-      "Ensured data accuracy and module-level correctness to support stable production deployment"
+      "Designed, developed, and optimized RESTful APIs across 5 full-stack applications, implementing authentication, edge-case handling, and error-management logic while validating 250+ endpoints using Postman, reducing production issues by 35%",
+      "Built and maintained robust backend API structures to ensure stable and consistent application performance",
+      "Developed and integrated AI-driven data pipelines using Flowise AI combined with manual data reconciliation and validation",
+      "Achieved 99% data accuracy and ensured reliable, production-ready datasets across multiple application modules"
     ],
     order: 1
   },
